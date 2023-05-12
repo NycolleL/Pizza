@@ -23,11 +23,19 @@ background-image: linear-gradient(to right, #4D0E0E, #3F0000, #3F0000, #3F0000);
 }
 
 .texto-menu-info {
-    color: white;
-    font-family:'Ephesis', cursive;
-    font-size: 32px;
-    text-align: left;
-    margin: 15px;
+    position: absolute;
+width: 89px;
+height: 20px;
+left: 56px;
+top: 22px;
+
+font-family: 'Ephesis';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 47px;
+
+color: #FFFFFF;
 }
 .texto-menu1 {  
     color: white;
@@ -68,10 +76,10 @@ background-image: linear-gradient(to right, #4D0E0E, #3F0000, #3F0000, #3F0000);
 }
 
 h1 {
-
+position: absolute;
 width: 417px;
-height: 100px;
-left: 172px;
+height: 300px;
+left: 210px;
 top: 203px;
 font-family: 'Ephesis', cursive;
 font-style: normal;
@@ -82,4 +90,108 @@ background: linear-gradient(276.68deg, #FF881A 9.97%, rgba(113, 0, 0, 0.77) 83.2
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
+}
+
+h2 {
+position: absolute;
+width: 176px;
+height: 22px;
+left: 500px;
+top: 269px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 31px;
+
+color: #FFFFFF;
+}
+
+h3 {
+    position: absolute;
+width: 408px;
+height: 18px;
+left: 130px;
+top: 403px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+
+color: #FFFFFF;
+}
+
+h4{
+position: absolute;
+width: 211px;
+height: 64px;
+left: 161px;
+top: 461px;
+}
+
+.pimenta1 {
+position: relative;
+width: 168px;
+height: 3px;
+left: 168.45px;
+top: 800px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px;
+
+color: #FFFFFF;
+}
+
+.pimenta2 {
+position: relative;
+width: 168px;
+height: 80px;
+left: 580px;
+top: 730px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px;
+
+color: #FFFFFF;
+
+}
+
+.pizza {
+position: absolute;
+width: 580px;
+height: 600px;
+left: 980px;
+top: 270px;
+}
+
+.pimentaIMG1 {
+position: relative;
+width: 85px;
+height: 70px;
+left: 15px;
+top: 780px;
+
+display: block;
+    margin-left: 70px;
+    margin-right: ;
+}
+
+.pimentaIMG2 {
+position: relative;
+width: 90px;
+height: 97px;
+left: 427px;
+top: 615px;
+display: block;
+    margin-left: 80px;
+    margin-right: ;
 }
